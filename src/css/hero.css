@@ -1,0 +1,24 @@
+.hero {
+}
+.container {
+}
+.wrapper {
+}
+.hero-title {
+}
+.hero-text {
+}
+.hero-footer {
+}
+.hero-students {
+    display: flex;
+}
+.hero-students-img {
+    margin-left: -5px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.hero-students-text {
+}
+.hero-reviews {
+}
