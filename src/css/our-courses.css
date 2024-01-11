@@ -14,6 +14,12 @@
     }
 }
 
+@media only screen and (min-width: 1280px) {
+.courses-title {
+    margin-right: 410px;
+  }
+}
+
 .courses-title{
     color: #FFF;
         font-family: DM Sans;
@@ -24,19 +30,22 @@
         /* 114.286% */
         letter-spacing: -1.12px;
 
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-title {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
 .courses-title {
     color: #FFF;
-        font-family: DM Sans;
         font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 54px;
         /* 112.5% */
-        letter-spacing: -1.92px;
+        letter-spacing: -1.92px;    
   }
 }
 
@@ -68,9 +77,7 @@
 
 .courses-caption{
     color: #FFF;
-        font-family: DM Sans;
         font-size: 14px;
-        font-style: normal;
         font-weight: 400;
         line-height: 18px;
         /* 128.571% */
@@ -82,13 +89,19 @@
 @media only screen and (min-width: 768px) {
 .courses-caption {
     color: #FFF;
-        font-family: DM Sans;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 20px;
         /* 125% */
         letter-spacing: -0.32px;
+
+        width: 381px;
+        margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-caption {
+    width: 405px;
   }
 }
 
@@ -100,6 +113,15 @@
     gap: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+.courses-list  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+}
+
 
 
 .courses-item{
@@ -107,6 +129,20 @@
         border: 1px solid rgba(255, 255, 255, 0.20);
         background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
         padding: 28px;
+        width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+.courses-item {
+    padding: 32px;
+    width: 342px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+.courses-item {
+    width: 346px;
+  }
 }
 
 .number-list{
