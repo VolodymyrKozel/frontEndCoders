@@ -1,24 +1,131 @@
 .hero {
+  border-radius: 30px;
+  background: #1d1d1d;
+  width: 1240px;
+height: 600px;
+flex-shrink: 0;
 }
 .container {
+    display: flex;
 }
 .wrapper {
+padding-top: 80px;
+padding-bottom: 50px;
+padding-left: 50px;
 }
 .hero-title {
 }
 .hero-text {
+  width: 563px;
+  font-family: DM Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 68px; /* 106.25% */
+  letter-spacing: -2.56px;
+  padding-bottom: 20px;
+  color: #fff;
 }
+.hero-text-photography {
+  font-family: DM Sans;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -2.56px;
+  color: #bea69e;
+}
+.hero-text-two {
+  width: 418px;
+  height: 54px;
+  flex-shrink: 0;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  color: #fff;
+}
+.hero-text-two {
+
+}
+
 .hero-footer {
+
+  display: inline-flex;
+  height: 56px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
 }
 .hero-students {
     display: flex;
+    align-items: center;
 }
 .hero-students-img {
-    margin-left: -5px;
-    overflow: hidden;
-    border-radius: 50%;
+  margin-left: -5px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 .hero-students-text {
+   padding-left: 12px;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.64px;
 }
 .hero-reviews {
+    display: flex;
+    width: 119px;
+    align-items: center;
+    gap: 12px;
+}
+.icon-back-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+    border-radius: 100px;
+background: #BEA69E;
+}
+.reviews-style{
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.64px;
+color: rgba(255, 255, 255, 0.50);
+}
+.number-style{
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: -0.64px;
+color: #FFF
+}
+.reviews-all{
+    display: flex;
+width: 57px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+flex-shrink: 0;
+}
+.our-students{
+    display: flex;
+height: 56px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
 }
