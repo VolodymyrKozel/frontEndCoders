@@ -1,0 +1,9 @@
+.Reviews {
+}
+
+.reviews-list-item-svg-icon {
+  fill: rgba(65, 65, 65, 1);
+}
+.reviews-list-item-svg-icon.active {
+  fill: rgba(190, 166, 158, 1);
+}
