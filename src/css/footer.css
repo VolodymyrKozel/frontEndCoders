@@ -1,18 +1,17 @@
 .web-footer {
-  outline: 2px solid red;
-  outline-offset: -2px;
-
   padding-top: 40px;
   padding-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
   .web-footer {
-    padding: 50px 32px 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .web-footer {
-    padding: 50px 100px 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
   }
 }
 .footer-wrapper {
@@ -73,7 +72,7 @@
   text-transform: capitalize;
 }
 .footer-socials-menu {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   justify-content: center;
   max-width: 214px;
@@ -105,6 +104,7 @@
   }
 }
 .footer-socials {
+  max-width: 77px;
 }
 .socials {
 }
@@ -113,6 +113,7 @@
 .socials-link {
 }
 .footer-menu {
+  max-width: 97px;
 }
 .menu-item {
 }
@@ -134,15 +135,17 @@
 }
 .web-footer-form {
   margin-bottom: 40px;
+  display: flex;
+  gap: 8px;
 }
 .web-footer-label {
+  width: 100%;
 }
 .web-footer-input {
   width: 267px;
   height: 60px;
   flex-shrink: 0;
   padding: 20px 18px;
-  margin-right: 8px;
 
   border-radius: 12px;
   background: #fff;
@@ -154,35 +157,60 @@
   font-weight: 400;
   line-height: 1.25;
 }
+@media only screen and (min-width: 768px) {
+  .web-footer-input {
+    width: 178px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .web-footer-input {
+    width: 216px;
+  }
+}
 .web-footer-btn {
   width: 60px;
   height: 60px;
   flex-shrink: 0;
+  padding: 18px 17px;
 
   border-radius: 12px;
   background: #1d1d1d;
 
   color: #fff;
   text-align: center;
-  font-family: DM Sans;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.2;
 }
 .web-footer-bottom {
   display: flex;
+  justify-content: space-between;
 }
 .web-footer-privacy {
-  margin-right: 72px;
+  max-width: 147px;
+}
+@media only screen and (min-width: 768px) {
+  .web-footer-privacy {
+    max-width: 171px;
+  }
 }
 .web-footer-copyright {
+  max-width: 116px;
+}
+@media only screen and (min-width: 768px) {
+  .web-footer-copyright {
+    max-width: 134px;
+  }
 }
 .text {
   color: #fff;
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.33;
+}
+@media only screen and (min-width: 768px) {
+  .text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
