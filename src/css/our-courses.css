@@ -93,6 +93,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+.courses-caption {
+    width: 565px;
+  }
+}
+
 /* Cards */
 
 .courses-list{
@@ -196,7 +202,6 @@ top: 50%;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.285;
-        /* 128.571% */
         letter-spacing: -0.02em;
 }
 
@@ -205,6 +210,6 @@ top: 50%;
     color: rgba(255, 255, 255, 0.50);
         font-size: 16px;
         line-height: 1.25;
-        /* 125% */
   }
 }
+
