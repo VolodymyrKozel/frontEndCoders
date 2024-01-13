@@ -42,6 +42,7 @@
   }
   .about-list {
     gap: 40px;
+    padding-right: 104px;
   }
   .about-item {
     width: calc((100% - 40px) / 2);
@@ -66,6 +67,7 @@
   }
   .about-list {
     gap: 20px;
+    padding-right: 0;
   }
   .about-item {
     width: 264px;
