@@ -23,6 +23,7 @@
 }
 .web-footer-top {
   max-width: 142px;
+  flex-shrink: 0;
 
   margin-bottom: 40px;
 }
@@ -105,6 +106,7 @@
 }
 .footer-socials {
   max-width: 77px;
+  flex-shrink: 0;
 }
 .socials {
 }
@@ -114,6 +116,7 @@
 }
 .footer-menu {
   max-width: 97px;
+  flex-shrink: 0;
 }
 .menu-item {
 }
