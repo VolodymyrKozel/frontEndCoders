@@ -1,0 +1,61 @@
+.advertisement {
+  margin: 40px 0;
+}
+
+.marquee {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.marquee-line {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+
+  flex-shrink: 0;
+  margin: 0;
+  padding: 10px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marquee-line;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee-line {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-accent {
+  color: #fff;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1.18px;
+  text-transform: uppercase;
+}
+
+.ikon {
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
+}
+.marquee-inner {
+  display: flex;
+  gap: 24px;
+}
