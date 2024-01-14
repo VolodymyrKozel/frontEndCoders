@@ -206,9 +206,11 @@ margin-bottom: 32px;
 
 } */
 
-.header , .hero {
+.header , .hero  {
   background-image: url(../img/hero/bg-hero-header.png), url(../img/hero/bg-hero-header@2x.png);
 }
+
+
 .hero-container {
   max-width: 335px;
   padding: 40px 20px 0 20px;
@@ -330,9 +332,15 @@ margin-bottom: 32px;
   .our-students {
     margin-top: 4px;
   }
+
 .picture-style{
   padding-left: 38px;
   padding-right: 38px;
+}
+@media  screen and (min-resolution: 192dpi) {
+  .header , .hero  {
+    background-image: url(../img/hero/bg-hero-header.png), url(../img/hero/bg-hero-header@2x.png);
+  }
 }
 }
 
@@ -341,6 +349,10 @@ margin-bottom: 32px;
     padding: 64px 32px 0 32px;
     max-width: 704px;
     gap: 40px;
+  }
+  .hero-container{
+    margin-top: 40px;
+    margin-bottom: 75px;
   }
   .hero-text {
     width: 517px;
