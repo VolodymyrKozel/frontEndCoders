@@ -213,15 +213,22 @@
 
 
 img.obj {
-    position: absolute;
+    /* position: absolute;
     margin: 14px 0 0 -70px;
-    padding: 34px 9px 19px 18px;
+    padding: 34px 9px 19px 18px; */
+    filter: drop-shadow(-36px 18px 25px rgba(0, 0, 0, 0.26));
+}  
+
+.photos-design.obj {
+        padding: 62px 18px;
+        width: 190px;
+        height: 288px;
+        flex-shrink: 0;
+        border-radius: 1000px;
+        background: #BEA69E;
 }
 
 
-.lasttry {
-    transform: rotate(-90deg);
-}
 
 .photos-design.cam {
     width: 350px;
