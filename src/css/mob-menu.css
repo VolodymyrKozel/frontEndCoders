@@ -14,11 +14,7 @@
   opacity: 0;
   visibility: hidden;
 }
-.backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
-  }
+
 .mobile-menu {
     display: flex;
     flex-direction: column;
