@@ -14,42 +14,81 @@
         </p>
         <div class="hero-footer">
           <div class="hero-students">
-            <picture>
-              <source
-                srcset="
-                  ./img/hero/mob-img-1.jpg    1x,
-                  ./img/hero/mob-img-1@2x.jpg 2x
-                "
-                media="(max-width:767px)"
-              />
-              <img
-                id="fotofooter1"
-                class="hero-students-img"
-                width="54"
-                height="54"
-                srcset="./img/hero/mob-img-1@2x.jpg 2x"
-                src="./img/hero/mob-img-1.jpg 1x"
-                alt="young woman"
-              />
+            <picture id="fotofooter1"
+            class="hero-students-img">
+          <!-- Tablet -->
+          <source 
+          media="(min-width: 768px)" 
+          srcset=" 
+            ./img/hero/students-png/student-54-girl-1.png   1x, 
+            ./img/hero/students-png/student-54-girl-1@2x.png 2x 
+          " 
+        />  
+     <!-- Mobile -->
+     <source 
+          media="(max-width: 767px)" 
+          srcset=" 
+            ./img/hero/students-png/students-44-girl-1.png   1x, 
+            ./img/hero/students-png/students-44-girl-1@2x.png 2x 
+          " 
+        /> 
+        <img 
+          width="54" 
+          height="54" 
+          src="./img/hero/students-png/student-54-girl-1.png" 
+          alt="young man with brouwn hear" 
+        />  
+
+             
             </picture>
-            <img
-              id="fotofooter2"
-              class="hero-students-img"
-              width="54"
-              height="54"
-              srcset="./img/hero/mob-img-2@2x.jpg 2x"
-              src="./img/hero/mob-img-2.jpg 1x"
-              alt="young man with brouwn hear"
-            />
-            <img
-              id="fotofooter3"
-              class="hero-students-img"
-              width="54"
-              height="54"
-              srcset="./img/hero/mob-img-3@2x.jpg 2x"
-              src="./img/hero/mob-img-3.jpg 1x"
-              alt="young woman"
-            />
+            <picture id="fotofooter2" class="hero-students-img">
+              <!-- Tablet -->
+               <source 
+                   media="(min-width: 768px)" 
+                   srcset=" 
+                     ./img/hero/students-png/students-54-boy-1.png   1x, 
+                     ./img/hero/students-png/students-54-boy@2x.png 2x 
+                   " 
+                 />  
+              <!-- Mobile -->
+              <source 
+                   media="(max-width: 767px)" 
+                   srcset=" 
+                     ./img/hero/students-png/students-44-boy-1.png   1x, 
+                     ./img/hero/students-png/students-44-boy@2x.png 2x 
+                   " 
+                 /> 
+                 <img 
+                   width="54" 
+                   height="54" 
+                   src="./img/hero/students-png/students-54-boy@2x.png" 
+                   alt="young man with brouwn hear" 
+                 />  
+           
+            </picture>
+            <picture id="fotofooter3" class="hero-students-img">
+              <!-- Tablet -->
+               <source 
+                   media="(min-width: 768px)" 
+                   srcset=" 
+                     ./img/hero/students-png/students-54-girl-3.png     1x, 
+                     ./img/hero/students-png/students-54-girl-3@2x.png 2x 
+                   " 
+                 />  
+              <!-- Mobile -->
+               <source 
+                   media="(max-width: 767px)" 
+                   srcset=" 
+                     ./img/hero/students-png/students-44-girl-3.png    1x, 
+                     ../img/hero/students-png/students-44-girl3@2x.png 2x 
+                   " 
+                 /> 
+                 <img 
+                   width="54" 
+                   height="54" 
+                   src="./img/hero/students-png/students-54-girl-3@2x.png" 
+                   alt="young woman"/> 
+           </picture>
             <div class="our-students">
               <p class="hero-students-text">Our happy students</p>
               <svg class="star" width="18px" height="9px">
