@@ -42,13 +42,10 @@
   }
   .about-list {
     gap: 40px;
-    padding-right: 104px;
   }
   .about-item {
-    width: calc((100% - 40px) / 2);
+    width: 280px;
   }
-}
-@media only screen and (min-width: 768px) {
   .about-title {
     font-size: 48px;
     line-height: 1.12;
