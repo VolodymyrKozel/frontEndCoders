@@ -1,41 +1,47 @@
-
-.sing-up {
+.sign-up {
     font-family: DM Sans, sans-serif;
     display: flex;
     margin-bottom: 80px;
-    
+
 }
+
 @media screen and (min-width: 768px) {
-    .sing-up {
+    .sign-up {
         /* Tablet devices */
         margin-bottom: 99.29px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .sing-up {
+    .sign-up {
         /* Desktop devices */
         margin-bottom: 150px;
     }
 }
 
-.sing-up-content {
+.sign-up-content {
     display: flex;
     gap: 60px;
 }
 
-.sing-up-description {
+@media screen and (min-width: 1440px) {
+    .sign-up-content {
+        gap: 200px;
+    }
+}
+
+.sign-up-description {
     width: 335px;
 }
 
 @media screen and (min-width: 768px) {
-    .sing-up-description {
+    .sign-up-description {
         width: 480px;
     }
 }
 
 
-.sing-up-header {
+.sign-up-header {
     color: #FFF;
     font-size: 48px;
     font-weight: 500;
@@ -92,7 +98,7 @@
 }
 
 .user-name-input {
-    color:#1D1D1D;
+    color: #1D1D1D;
     background-color: #1D1D1D;
 }
 
@@ -132,13 +138,13 @@
     font-weight: 400;
 }
 
-.sing-up-button {
+.sign-up-button {
     display: inline-flex;
     padding: 14px 144px;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background:#FFF;
+    background: #FFF;
     color: #121212;
     font-size: 18px;
     font-weight: 700;
@@ -148,20 +154,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .sing-up-button {
+    .sign-up-button {
         /* Tablet devices + Desktop devices */
         padding: 16px 216px;
-        
+
     }
 }
 
 
-.sing-up-button:hover {
+.sign-up-button:hover {
     background: #1D1D1D;
     color: #BEA69E;
 }
 
-.sing-up-privacy {
+.sign-up-privacy {
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     font-weight: 400;
@@ -169,7 +175,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .sing-up-privacy {
+    .sign-up-privacy {
         /* Tablet devices +Desktop devices */
         font-size: 14px;
     }
@@ -188,11 +194,11 @@
 
 @media screen and (min-width: 1280px) {
     .photos {
-            display: flex;
-            align-items: baseline;
-            gap: 20px;
-            margin-top: 0;
-        }
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+        margin-top: 0;
+    }
 }
 
 
@@ -202,7 +208,16 @@
     flex-shrink: 0;
     border-radius: 1000px;
     background: #BEA69E;
-} 
+}
+
+
+
+img.obj {
+    position: absolute;
+    margin: 14px 0 0 -70px;
+    padding: 34px 9px 19px 18px;
+}
+
 
 .lasttry {
     transform: rotate(-90deg);
