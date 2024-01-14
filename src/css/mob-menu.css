@@ -16,14 +16,9 @@
 }
 
 .mobile-menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-
     display: flex;
     justify-content: space-between;
-   
-  
+
     padding: 0;
     margin: 0;
     background:  #BEA69E;
