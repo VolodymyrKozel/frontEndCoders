@@ -199,10 +199,10 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 32px;
-  height: 32px;
 }
 .menu-close-icon {
+  width: 32px;
+  height: 32px;
   stroke: #121212;
 }
 .mobile-menu-link:is(:hover, :focus) {
@@ -236,12 +236,10 @@
   .menu-close-btn {
     top: 20px;
     right: 32px;
-    width: 40px;
-    height: 40px;
   }
   .menu-close-icon {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
   }
   .mobile-menu-item:not(:last-child) {
     margin-bottom: 28px;
