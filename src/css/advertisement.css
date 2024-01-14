@@ -1,5 +1,5 @@
 .advertisement {
-  margin: 40px 0;
+  padding-bottom: 100px;
 }
 
 .marquee {
@@ -7,25 +7,26 @@
   display: block;
   width: 100%;
   white-space: nowrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .marquee-line {
   color: #bea69e;
-  font-family: DM Sans;
+
   font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 114.286% */
+  line-height: 1.14; /* 114.286% */
   letter-spacing: -0.56px;
   text-transform: uppercase;
 
   flex-shrink: 0;
   margin: 0;
-  padding: 10px 15px;
+  padding: 24px 0;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marquee-line;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -40,11 +41,17 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .marquee-line {
+    font-size: 59px;
+    line-height: 1.08; /* 108.475% */
+    letter-spacing: -1.18px;
+    text-transform: uppercase;
+  }
+}
+
 .marquee-accent {
   color: #fff;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 400;
   line-height: 64px;
   letter-spacing: -1.18px;
   text-transform: uppercase;
