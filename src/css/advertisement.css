@@ -26,9 +26,10 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: marquee-line;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+  /* animation-timing-function: ease-in-out; */
   animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.3, 0.3, 0.3, -0.2);
 }
 
 @keyframes marquee-line {
@@ -38,6 +39,15 @@
 
   to {
     transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes marquee-line {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
   }
 }
 
@@ -52,7 +62,7 @@
 
 .marquee-accent {
   color: #fff;
-  line-height: 64px;
+  line-height: 1.08;
   letter-spacing: -1.18px;
   text-transform: uppercase;
 }
