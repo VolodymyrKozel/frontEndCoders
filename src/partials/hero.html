@@ -14,33 +14,45 @@
         </p>
         <div class="hero-footer">
           <div class="hero-students">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/mob-img-1.jpg    1x,
+                  ./img/hero/mob-img-1@2x.jpg 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                id="fotofooter1"
+                class="hero-students-img"
+                width="54"
+                height="54"
+                srcset="./img/hero/mob-img-1@2x.jpg 2x"
+                src="./img/hero/mob-img-1.jpg 1x"
+                alt="young woman"
+              />
+            </picture>
             <img
-            id="fotofooter1"
+              id="fotofooter2"
               class="hero-students-img"
-              width="54px"
-              height="54px"
-              src="./img/hero/mob-img-1.jpg"
-              alt="young woman"
-            />
-            <img
-            id="fotofooter2"
-              class="hero-students-img"
-              width="54px"
-              height="54px"
-              src="./img/hero/mob-img-2.jpg"
+              width="54"
+              height="54"
+              srcset="./img/hero/mob-img-2@2x.jpg 2x"
+              src="./img/hero/mob-img-2.jpg 1x"
               alt="young man with brouwn hear"
             />
             <img
-            id="fotofooter3"
+              id="fotofooter3"
               class="hero-students-img"
-              width="54px"
-              height="54px"
-              src="./img/hero/mob-img-3.jpg"
+              width="54"
+              height="54"
+              srcset="./img/hero/mob-img-3@2x.jpg 2x"
+              src="./img/hero/mob-img-3.jpg 1x"
               alt="young woman"
             />
             <div class="our-students">
               <p class="hero-students-text">Our happy students</p>
-              <svg class="star" width="18px" height="8.66px">
+              <svg class="star" width="18px" height="9px">
                 <use href="./img/icons.svg#icon-arrow-right"></use>
                 >
               </svg>
@@ -60,34 +72,113 @@
         </div>
       </div>
       <div class="picture-style">
-        <img
-          class="hero-img"
-          src="./img/hero/desktop@2x.png"
-          alt="young photographer with camera in right hand."
-          width="397"
-          height="520"
-          loading="lazy"
-        />
+        <picture>
+          <source
+            srcset="./img/hero/desktop.png 1x, ./img/hero/desktop@2x.png 2x"
+            media="(min-width:1200px)"
+          />
+
+          <source
+            srcset="./img/hero/hero-tab.png 1x, ./img/hero/hero-tab@2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="./img/hero/hero-mob.png 1x, ./img/hero/hero-mob@2x.png 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            class="hero-img"
+            srcset=""
+            src="./img/hero/desktop.png"
+            alt="young photographer with camera in right hand."
+            width="397"
+            height="520"
+            loading="lazy"
+          />
+        </picture>
       </div>
     </div>
-    
 
-    <!-- <picture class="picture-style"> -->
-    <!-- Desktop -->
-    <!-- <source
+    <picture class="picture-style">
+      <!-- Desktop -->
+      <source
         media="(min-width: 1200px)"
         srcset="./img/hero/desktop.png 1x, ./img/hero/desktop@2x.png 2x"
-      /> -->
-    <!-- Tablet -->
-    <!-- <source
+      />
+      <!-- Tablet -->
+      <source
         media="(min-width: 768px)"
         srcset="./img/hero/hero-tab.png 1x, ./img/hero/hero-tab@2x.png 2x"
-      /> -->
-    <!-- Mobile -->
-    <!-- <source
+      />
+      <!-- Mobile -->
+      <source
         media="(max-width: 767px)"
         srcset="./img/hero/hero-mob.png 1x, ./img/hero/hero-mob@2x.png 2x"
-      /> -->
-    <!-- </picture> -->
+      />
+    </picture>
   </div>
 </section>
+
+<!-- Mobile -->
+<!-- <source 
+       media="(max-width: 767px)" 
+       srcset=" 
+         ./img/hero/students-png/students-44-girl-1.png     1x, 
+         ../img/hero/students-png/students-44-girl-1@2x.png 2x 
+       " 
+     /> 
+     <img 
+       width="54" 
+       height="54" 
+       src="./img/hero/students-png/student-54-girl-1@2x.png" 
+       alt="young woman" 
+     /> 
+   </picture>  -->
+<picture id="fotofooter2" class="hero-students-img">
+  <!-- Tablet -->
+  <!-- <source 
+       media="(min-width: 768px)" 
+       srcset=" 
+         ./img/hero/students-png/students-54-boy-1.png   1x, 
+         ./img/hero/students-png/students-54-boy@2x.png 2x 
+       " 
+     />  -->
+  <!-- Mobile -->
+  <!-- <source 
+       media="(max-width: 767px)" 
+       srcset=" 
+         ./img/hero/students-png/students-44-boy-1.png   1x, 
+         ./img/hero/students-png/students-44-boy@2x.png 2x 
+       " 
+     /> 
+     <img 
+       width="54" 
+       height="54" 
+       src="./img/hero/students-png/students-54-boy@2x.png" 
+       alt="young man with brouwn hear" 
+     />  -->
+</picture>
+<picture id="fotofooter3" class="hero-students-img">
+  <!-- Tablet -->
+  <!-- <source 
+       media="(min-width: 768px)" 
+       srcset=" 
+         ./img/hero/students-png/students-54-girl-3.png     1x, 
+         ./img/hero/students-png/students-54-girl-3@2x.png 2x 
+       " 
+     />  -->
+  <!-- Mobile -->
+  <!-- <source 
+       media="(max-width: 767px)" 
+       srcset=" 
+         ./img/hero/students-png/students-44-girl-3.png    1x, 
+         ../img/hero/students-png/students-44-girl3@2x.png 2x 
+       " 
+     /> 
+     <img 
+       width="54" 
+       height="54" 
+       src="./img/hero/students-png/students-54-girl-3@2x.png" 
+       alt="young woman" 
+     />  -->
+</picture>
