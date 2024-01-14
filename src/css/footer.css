@@ -23,24 +23,24 @@
   }
 }
 .web-footer-top {
-  width: 142px;
+  width: 143px;
   flex-shrink: 0;
 
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .web-footer-top {
-    margin-right: 58px;
+    margin-right: 57px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .web-footer-top {
-    margin-right: 285px;
+    margin-right: 284px;
   }
 }
 @media only screen and (min-width: 1440px) {
   .web-footer-top {
-    margin-right: 341px;
+    margin-right: 340px;
   }
 }
 .footer-logo-icon {
@@ -76,7 +76,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  max-width: 214px;
+  width: 214px;
   gap: 40px;
 
   margin-bottom: 75px;
@@ -128,6 +128,11 @@
   margin-bottom: 40px;
   display: flex;
   gap: 8px;
+}
+@media only screen and (min-width: 1280px) {
+  .web-footer-form {
+    gap: 16px;
+  }
 }
 .web-footer-label {
   width: 100%;

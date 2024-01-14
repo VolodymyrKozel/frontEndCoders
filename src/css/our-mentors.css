@@ -1,114 +1,89 @@
 /* марджині паддинги перепроверка */
-
 .mentors {
-  display: block;
-  margin: 40px 0;
+  padding: 40px 0;
 }
-
 .title-mentors {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   margin-bottom: 40px;
-  text-align: left;
 }
-
-@media only screen and (min-width: 768px) {
-  .title-mentors {
-    font-size: 48px;
-    line-height: 1.12; /* 112.5% */
-    letter-spacing: -1.92px;
-    margin-bottom: 50px;
-  }
-}
-
 .mentors-accent {
   color: #bea69e;
 }
 .mentors-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 40px;
   justify-content: center;
 }
-
-@media only screen and (min-width: 768px) {
-  .mentors-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 93px 100px;
-    margin-left: 108px;
-    margin-right: 108px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .mentors-list {
-    margin-left: 23px;
-    margin-right: 23px;
-  }
-}
 .mentors-item {
+  width: 185px;
 }
-
+.mentors-picture {
+  margin: 0 auto;
+}
+.mentors-picture {
+  border-radius: 200px;
+  /*  border-radius: 50%; */
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.mentors-caption {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.mentors-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
 @media only screen and (min-width: 768px) {
+  .mentors {
+    padding: 50px 0;
+  }
+  .title-mentors {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+  .mentors-list {
+    margin: 0 auto;
+    width: 488px;
+    gap: 93px 100px;
+  }
   .mentors-item {
     width: calc((100% - 100px * 1) / 2);
   }
+  .mentors-caption {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+  .mentors-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
-
 @media only screen and (min-width: 1280px) {
+  .mentors {
+    padding: 65px 0;
+  }
+  .mentors-list {
+    width: 1034px;
+  }
   .mentors-item {
     width: calc((100% - 100px * 3) / 4);
   }
 }
-
-.mentors-picture {
-  /* border-radius: 200px; */
-  border-radius: 50%;
-  overflow: hidden;
-
-  margin-bottom: 16px;
-  padding-left: 7px;
-  padding-right: 7px;
-}
-.mentors-caption {
-  color: #fff;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  margin-bottom: 4px;
-}
-
-@media only screen and (min-width: 768px) {
-  .mentors-caption {
-    font-size: 28px;
-    line-height: 1.14; /* 114.286% */
-  }
-}
-
-.mentors-text {
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.33; /* 133.333% */
-  letter-spacing: -0.24px;
-}
-
-@media only screen and (min-width: 768px) {
-  .mentors-text {
-    font-size: 14px;
-    line-height: 1.28; /* 128.571% */
-    letter-spacing: -0.28px;
+@media only screen and (min-width: 1440px) {
+  .mentors {
+    padding: 75px 0;
   }
 }
