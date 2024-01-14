@@ -241,11 +241,11 @@
     width: 40px;
     height: 40px;
   }
-  .mobile-menu-item:not(:last-child) {
-    margin-bottom: 28px;
-  }
   .mobile-menu-list {
     margin-top: 232px;
+  }
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 28px;
   }
 }
 @media (min-resolution: 192dpi) and (max-width: 767.98px) {
