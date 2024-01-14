@@ -1,78 +1,61 @@
-/* Mobile menu */
-.mobile-menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    min-width: 480px;
-    height: 100vh;
-  
-    padding: 0;
-    margin: 0;
-    background:  #BEA69E;
-  
-    transform:translateX(-100%);
-    transition: transform 280ms ease, visibility 300ms ease;
-    visibility: hidden;
-
-    color:  #121212;
-    font-family: DM Sans;
-    font-size: 14px;
-    text-transform: uppercase;
+.advertisement {
+  margin: 40px 0;
 }
 
-.is-open {
-    transform:translateY(0);
-    visibility: visible;
+.marquee {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
 }
-.menu-btn {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    margin-left: auto;
+
+.marquee-line {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 114.286% */
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+
+  flex-shrink: 0;
+  margin: 0;
+  padding: 10px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marquee-line;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
-.mobile-menu .menu-btn {
-    position: absolute;
-    top:20px;
-    right: 20px;
-  
-    width: 24px;
-    height: 24px;
-  
-    display: flex;
-    align-items:center;
-    justify-content: center;
+
+@keyframes marquee-line {
+  from {
+    transform: translateX(0);
   }
-.menu-btn-icon {
-    stroke: #121212;
-}
-.menu-btn-icon:hover {
-    stroke: #121212;
-    fill:black;
-}
-.mobile-menu-list {
-    margin: 0;
-    padding-top: 232px;
-    padding-left: 64px;
-}
-.mobile-menu-item {
-}
-.mobile-menu-link {
-}
-.link-span {
-    font-weight: 700;
-}
-.menu-content {
-    margin-bottom: 114px;
-}
-.mobile-menu-background {
-width: 476px;
-height: 480px;
-margin: 0;
-padding: 0;
-    background-image:
-        url(../img/header/img-menu-bg-tab.jpg);
-}  
 
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-accent {
+  color: #fff;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1.18px;
+  text-transform: uppercase;
+}
+
+.ikon {
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
+}
+.marquee-inner {
+  display: flex;
+  gap: 24px;
+}
