@@ -1,11 +1,11 @@
 .hero {
   padding-top: 90px;
   padding-bottom: 80px;
-  background-image: url(../img/hero/mob-hero-bg/Graphic.png);
+  background-image: url(../img/hero/mob-hero-bg/graphic.png);
 }
 @media screen and (min-resolution: 192dpi) {
   .hero {
-    background-image: url(../img/hero/mob-hero-bg/Graphic@2x.png);
+    background-image: url(../img/hero/mob-hero-bg/graphic@2x.png);
   }
 }
 .hero-container {
@@ -86,7 +86,8 @@
   height: 44px;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #bea69e;
+  background-color: #bea69e;
+  transition: background-color 250ms ease-in-out;
 }
 .reviews-style {
   color: rgba(255, 255, 255, 0.5);
@@ -114,11 +115,18 @@
   align-items: flex-start;
   gap: 8px;
 }
+.our-students:is(:hover, :focus, :active) .star{
+transform: translateX(30px);
+}
+.icon-back-style:is(:hover, :focus, :active) {
+  background-color: rgba(190, 166, 158, 0.9);
+}
 .icon-head {
   stroke: #121212;
   fill: transparent;
 }
 .star {
+  transition: transform 250ms ease-in-out;
   fill: #fff;
 }
 .hero-students-img {
