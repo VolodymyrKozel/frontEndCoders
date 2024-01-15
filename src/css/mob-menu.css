@@ -38,6 +38,7 @@
       width: 40px;
       height: 32px;
     }
+
     .menu-close-icon {
       width: 28px;
       height: 28px;
@@ -70,6 +71,7 @@
   .menu-close-icon {
     stroke: #121212;
   }
+  .menu-close-icon
   .mobile-menu-list {
     margin-top: 180px;
   }
