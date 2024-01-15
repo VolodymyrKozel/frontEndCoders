@@ -220,7 +220,7 @@ img.obj {
 }  
 
 .photos-design.obj {
-        padding: 62px 18px;
+        padding: 62px 18px 63px;
         width: 190px;
         height: 288px;
         flex-shrink: 0;
