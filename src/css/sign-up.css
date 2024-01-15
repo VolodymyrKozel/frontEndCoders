@@ -1,21 +1,21 @@
 .sign-up {
     font-family: DM Sans, sans-serif;
     display: flex;
-    margin-bottom: 80px;
+    padding-bottom: 40px;
 
 }
 
 @media screen and (min-width: 768px) {
     .sign-up {
         /* Tablet devices */
-        margin-bottom: 99.29px;
+        padding-bottom: 50px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .sign-up {
         /* Desktop devices */
-        margin-bottom: 150px;
+        padding-bottom: 75px;
     }
 }
 
