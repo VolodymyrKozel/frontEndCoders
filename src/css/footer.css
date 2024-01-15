@@ -14,17 +14,24 @@
   .web-footer {
     padding-top: 50px;
     padding-bottom: 25px;
+    background-image: url(../img/hero/tab-hero-bg/Graphic.png);
   }
-  @media screen and (min-resolution: 192dpi) {
-    .web-footer {
-      background-image: url();
-    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .web-footer {
+    background-image: url(../img/hero/tab-hero-bg/Graphic@2x.png);
   }
 }
 @media only screen and (min-width: 1280px) {
   .web-footer {
     padding-top: 50px;
     padding-bottom: 25px;
+    background-image: url(../img/hero/1280-hero-bg/Graphic.png);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .web-footer {
+    background-image: url(../img/hero/1440-hero-bg/Graphic.png);
   }
 }
 @media only screen and (min-width: 768px) {
