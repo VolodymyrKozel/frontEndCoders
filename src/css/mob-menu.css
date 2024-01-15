@@ -75,11 +75,11 @@
 margin: 0;
 padding: 0;
     background-image:
-        url(../img/header/img-menu-bg-tab.jpg);
+        url(./img/header/img-menu-bg-tab.jpg);
 }  
 @media (min-resolution: 192dpi) {
     .mobile-menu-background {
       background-image: 
-      url(../img/header/img-menu-bg-tab@2x.jpg);
+      url(./img/header/img-menu-bg-tab@2x.jpg);
     }
   }
