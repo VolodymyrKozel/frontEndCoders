@@ -1,39 +1,53 @@
-<section class="sing-up-section">
-    <div class="container">
-        <h2>Sing Up</h2>
-        <p>Please use the form below to contact us. Enter your name, email, and message and we'll get back to you
-            shortly.</p>
-        <form action="#">
-            <div class="">
-                <label class="" for="user-name"></label>
-                <div class="">
-                    <input class="" type="text" id="user-name" name="user-name" placeholder="Enter your name">
+<section id="sign-up" class="sign-up container">
+    <div class="sign-up-content">
+        <div class="sign-up-description">
+            <h2 class="sign-up-header">Sign <span class="up-span">Up</span></h2>
+            <p class="field-description">Please use the form below to contact us. Enter your name, email, and message
+                and we'll get back to you
+                shortly.</p>
+            <form class="form" action="#">
+                <div class="user-form">
+                    <label class="user-name" for="user-name"></label>
+                    <div class="user-name-input">
+                        <input class="user-input" type="text" pattern="[A-Za-z\s]+" id="user-name" name="user-name"
+                            placeholder="Enter your name">
+                    </div>
                 </div>
-            </div>
-            <div class="">
-                <label class="" for="user-email"></label>
-                <div class="">
-                    <input class="" type="text" id="user-email" name="user-email" placeholder="Enter your email">
+                <div class="user-form">
+                    <label class="" for="user-email"></label>
+                    <div class="user-name-input">
+                        <input class="user-input" type="text" id="user-email" name="user-email"
+                            placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
                 </div>
-            </div>
-            <div class="">
-                <label class="" for="user-comment"></label>
-                <textarea class="" name="user-comment" id="user-comment" cols="30" rows="10"
-                    placeholder="Message"></textarea>
-            </div>
-            <button class="">
-                Send
-            </button>
-            <p>By clicking on “Send” button, you agree to our <a href="">Privacy Policy</a>,
-                and allow Promodo to use this information for marketing purposes.</p>
-        </form>
-    </div>
-    <div class="container">
-        <picture>
-            <img src="../img/signup/objective.png" alt="">
-        </picture>
-        <picture>
-            <img src="../img/signup/camera.png" alt="">
-        </picture>
+                <div class="user-form textarea">
+                    <label class="" for="user-comment"></label>
+                    <textarea class="user-input textarea" name="user-comment" id="user-comment" cols="10" rows="5"
+                        placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="sign-up-button">
+                    Send
+                </button>
+                <p class="sign-up-privacy">By clicking on &#8220;Send&#8220; button, you agree to our <a
+                        class="privacy-link" href="">Privacy Policy</a>,<br>
+                    and allow Promodo to use this information for marketing purposes.</p>
+            </form>
+        </div>
+        <div class="photos">
+            <picture class="photos-design obj">
+                <source media="(max-width: 1439px)"
+                    srcset="./img/signup/objective.png 1x, ./img/signup/objective@2x.png 2x">
+                <source media="(min-width: 1440px)"
+                    srcset="./img/signup/1440-objective.png 1x, ./img/signup/1440-objective@2x.png 2x">
+                <img class="obj" src="../img/signup/1440-objective.png" alt="professional objective" width="254" height="313">
+            </picture>
+            <picture class="photos-design cam">
+                <source media="(max-width: 1439px)" srcset="./img/signup/camera.png 1x, ./img/signup/camera@2x.png 2x">
+                <source media="(min-width: 1440px)"
+                    srcset="./img/signup/1440-camera.png 1x, ./img/signup/1440-camera@2x.png 2x">
+                <img src="./img/signup/camera.png" alt="professional camera" width="254" height="313">
+            </picture>
+        </div>
     </div>
 </section>
+

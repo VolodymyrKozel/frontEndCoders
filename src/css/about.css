@@ -1,40 +1,24 @@
 .about {
-  /* ПО половинні з верху секція теж з паДінгами 40 + 40 = 80 */
-  /*padding-top: 80px;
-    padding-bottom: 80px; */
   padding: 40px 0;
 }
 .about-title {
-  /*   padding-bottom: 40px;  це зайве*/
   margin-bottom: 40px;
-  /* color: #fff;  видаляємо body color унаслідується */
-  /* font-family: DM Sans;  видаляємо body font-family унаслідується*/
   font-size: 28px;
-  /* font-style: normal;  видаляємо це за замовчуванням*/
   font-weight: 500;
   line-height: 1.14;
-  /* line-height: 32px; */ /* 114.286%  переводим*/
-  letter-spacing: -0.04em; /*letter-spacing: -1.12px; -1,12/28=0.04em */
+  letter-spacing: -0.04em;
 }
 .about-title-span {
   color: #bea69e;
-  /*     font-family: DM Sans;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -1.12px;  дублюєш стилі спан унаслідує усе від .about-title (h2)*/
 }
 .about-foto,
 .about-item {
   width: 100%;
 }
 .about-item-text {
-  /* color: #fff;  видаляємо body color унаслідується */
   font-size: 14px;
-  /* font-weight: 400; видаляємо унаслідується*/
-  line-height: 1.28; /*line-height: 18px; 128.571%  переводим*/
-  letter-spacing: -0.02em; /* letter-spacing: -0.28px; */
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 .about-list {
   display: flex;
@@ -48,7 +32,6 @@
 }
 @media only screen and (min-width: 768px) {
   .about {
-    /* ПО половинні з верху секція теж з паДінгами 50 + 50 = 100 */
     padding: 50px 0;
   }
   .about-title {
@@ -61,10 +44,8 @@
     gap: 40px;
   }
   .about-item {
-    width: calc((100% - 40px) / 2);
+    width: 280px;
   }
-}
-@media only screen and (min-width: 768px) {
   .about-title {
     font-size: 48px;
     line-height: 1.12;
@@ -87,6 +68,9 @@
   .about-item {
     width: 264px;
   }
+  .about-item:first-child {
+    width: 268px;
+  }
   .about {
     padding: 65px 0;
   }
@@ -100,6 +84,9 @@
   }
   .about-item {
     width: 276px;
+  }
+  .about-item:first-child {
+    width: 314px;
   }
   .about {
     padding: 75px 0;
