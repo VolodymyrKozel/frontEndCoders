@@ -68,10 +68,15 @@
     width: 32px;
     height: 32px;
   }
+  
+  .menu-close-btn:active {
+    color: white;
+  }
+  
   .menu-close-icon {
     stroke: #121212;
   }
-  .menu-close-icon
+
   .mobile-menu-list {
     margin-top: 180px;
   }
