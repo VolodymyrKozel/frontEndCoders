@@ -62,6 +62,16 @@
   line-height: 1.25;
   letter-spacing: -0.04em;
 }
+#fotofooter2, #fotofooter3 {
+  margin-left: -13px;
+}
+  
+
+.star:focus
+.star:hover{
+  color: #121212;
+}
+
 .hero-reviews {
   display: flex;
   width: 119px;
