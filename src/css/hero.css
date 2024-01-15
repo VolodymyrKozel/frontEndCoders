@@ -57,6 +57,7 @@
   border-radius: 50%;
 }
 .hero-students-text {
+  display: block;
   width: 82px;
   line-height: 1.25;
   letter-spacing: -0.04em;
