@@ -21,6 +21,10 @@
 .mentors-item {
   width: 185px;
 }
+.mentors-item:nth-child(3) {
+  width: 194px;
+}
+
 .mentors-picture {
   margin: 0 auto;
 }
@@ -73,17 +77,17 @@
 }
 @media only screen and (min-width: 1280px) {
   .mentors {
-    padding: 65px 0;
+    padding: 75px 0;
   }
   .mentors-list {
-    width: 1034px;
+    width: 1076px;
   }
   .mentors-item {
     width: calc((100% - 100px * 3) / 4);
   }
 }
 @media only screen and (min-width: 1440px) {
-  .mentors {
-    padding: 75px 0;
+  .mentors-list {
+    width: 1240px;
   }
 }

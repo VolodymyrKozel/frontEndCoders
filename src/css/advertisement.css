@@ -1,5 +1,5 @@
 .advertisement {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .marquee {
@@ -7,6 +7,7 @@
   display: block;
   width: 100%;
   white-space: nowrap;
+
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -14,22 +15,20 @@
 
 .marquee-line {
   color: #bea69e;
-
+  font-weight: 400;
   font-size: 28px;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.56px;
   text-transform: uppercase;
-
   flex-shrink: 0;
   margin: 0;
-  padding: 24px 0;
+  padding: 20px 0;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marquee-line;
   animation-duration: 10s;
-  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.3, 0.3, 0.3, -0.2);
 }
 
 @keyframes marquee-line {
@@ -41,6 +40,8 @@
     transform: translateX(-100%);
   }
 }
+
+/* для браузера сафари */
 
 @-webkit-keyframes marquee-line {
   0% {
@@ -54,9 +55,10 @@
 @media only screen and (min-width: 768px) {
   .marquee-line {
     font-size: 59px;
-    line-height: 1.08; /* 108.475% */
+    line-height: 1.08;
     letter-spacing: -1.18px;
     text-transform: uppercase;
+    padding: 24px 0;
   }
 }
 
@@ -69,7 +71,6 @@
 
 .ikon {
   stroke-width: 1px;
-  stroke: rgba(255, 255, 255, 1);
   fill: rgba(255, 255, 255, 1);
 }
 .marquee-inner {
