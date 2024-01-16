@@ -1,53 +1,106 @@
 <section id="sign-up" class="sign-up container">
-    <div class="sign-up-content">
-        <div class="sign-up-description">
-            <h2 class="sign-up-header">Sign <span class="up-span">Up</span></h2>
-            <p class="field-description">Please use the form below to contact us. Enter your name, email, and message
-                and we'll get back to you
-                shortly.</p>
-            <form class="form" action="#">
-                <div class="user-form">
-                    <label class="user-name" for="user-name"></label>
-                    <div class="user-name-input">
-                        <input class="user-input" type="text" pattern="[A-Za-z\s]+" id="user-name" name="user-name"
-                            placeholder="Enter your name">
-                    </div>
-                </div>
-                <div class="user-form">
-                    <label class="" for="user-email"></label>
-                    <div class="user-name-input">
-                        <input class="user-input" type="text" id="user-email" name="user-email"
-                            placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-                    </div>
-                </div>
-                <div class="user-form textarea">
-                    <label class="" for="user-comment"></label>
-                    <textarea class="user-input textarea" name="user-comment" id="user-comment" cols="10" rows="5"
-                        placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="sign-up-button">
-                    Send
-                </button>
-                <p class="sign-up-privacy">By clicking on &#8220;Send&#8220; button, you agree to our <a
-                        class="privacy-link" href="" aria-label="Read our Privacy Policy">Privacy Policy</a>,<br>
-                    and allow Promodo to use this information for marketing purposes.</p>
-            </form>
+  <div class="sign-up-content">
+    <div class="sign-up-description">
+      <h2 class="sign-up-header" data-aos="fade-right">
+        Sign <span class="up-span">Up</span>
+      </h2>
+      <p class="field-description">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="form" action="#">
+        <div class="user-form">
+          <label class="user-name" for="user-name"></label>
+          <div class="user-name-input">
+            <input
+              class="user-input"
+              type="text"
+              pattern="[A-Za-z\s]+"
+              id="user-name"
+              name="user-name"
+              placeholder="Enter your name"
+            />
+          </div>
         </div>
-        <div class="photos">
-            <picture class="photos-design obj">
-                <source media="(max-width: 1439px)"
-                    srcset="./img/signup/objective.webp 1x, ./img/signup/objective@2x.webp 2x">
-                <source media="(min-width: 1440px)"
-                    srcset="./img/signup/1440-objective.webp 1x, ./img/signup/1440-objective@2x.webp 2x">
-                <img class="obj" src="../img/signup/1440-objective.webp" alt="professional objective" width="163" height="154" loading="lazy">
-            </picture>
-            <picture class="photos-design cam">
-                <source media="(max-width: 1439px)" srcset="./img/signup/camera.webp 1x, ./img/signup/camera@2x.webp 2x">
-                <source media="(min-width: 1440px)"
-                    srcset="./img/signup/1440-camera.webp 1x, ./img/signup/1440-camera@2x.webp 2x">
-                <img src="./img/signup/camera.webp" alt="professional camera" width="254" height="313" loading="lazy">
-            </picture>
+        <div class="user-form">
+          <label class="" for="user-email"></label>
+          <div class="user-name-input">
+            <input
+              class="user-input"
+              type="text"
+              id="user-email"
+              name="user-email"
+              placeholder="Enter your email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+          </div>
         </div>
+        <div class="user-form textarea">
+          <label class="" for="user-comment"></label>
+          <textarea
+            class="user-input textarea"
+            name="user-comment"
+            id="user-comment"
+            cols="10"
+            rows="5"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="sign-up-button">Send</button>
+        <p class="sign-up-privacy">
+          By clicking on &#8220;Send&#8220; button, you agree to our
+          <a class="privacy-link" href="" aria-label="Read our Privacy Policy"
+            >Privacy Policy</a
+          >,<br />
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
     </div>
+    <div class="photos">
+      <picture class="photos-design obj">
+        <source
+          media="(max-width: 1439px)"
+          srcset="
+            ./img/signup/objective.webp    1x,
+            ./img/signup/objective@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/signup/1440-objective.webp    1x,
+            ./img/signup/1440-objective@2x.webp 2x
+          "
+        />
+        <img
+          class="obj"
+          src="../img/signup/1440-objective.webp"
+          alt="professional objective"
+          width="163"
+          height="154"
+          loading="lazy"
+        />
+      </picture>
+      <picture class="photos-design cam">
+        <source
+          media="(max-width: 1439px)"
+          srcset="./img/signup/camera.webp 1x, ./img/signup/camera@2x.webp 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/signup/1440-camera.webp    1x,
+            ./img/signup/1440-camera@2x.webp 2x
+          "
+        />
+        <img
+          src="./img/signup/camera.webp"
+          alt="professional camera"
+          width="254"
+          height="313"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
-
