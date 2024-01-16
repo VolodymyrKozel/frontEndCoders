@@ -22,7 +22,6 @@
 .reviews-list-wrapp {
   display: flex;
   justify-content: center;
-
   column-gap: 10px;
   margin-left: 20px;
   margin-top: 20px;
@@ -37,12 +36,9 @@
 }
 
 .reviews-title {
-  color: #fff;
-
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.14; /* 114.286% */
+  line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
@@ -55,7 +51,7 @@
 @media screen and (min-width: 1280px) {
   .reviews-title {
     font-size: 48px;
-    line-height: 1.12; /* 112.5% */
+    line-height: 1.12;
   }
 }
 
@@ -67,9 +63,8 @@
 }
 .reviews-list-title {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
 
   margin-bottom: 4px;
 }
@@ -99,9 +94,7 @@
 
 .reviews-subtitle {
   color: rgba(255, 255, 255, 0.5);
-
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.33; /* 133.333% */
   letter-spacing: -0.02em;
@@ -115,9 +108,8 @@
 }
 .reviews-list-item-text {
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
   margin: 20px 20px;
 }

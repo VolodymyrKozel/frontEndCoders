@@ -2,6 +2,11 @@
 .mentors {
   padding: 40px 0;
 }
+
+.mentors-container {
+  padding-left: 77px;
+  padding-right: 77px;
+}
 .title-mentors {
   font-size: 28px;
   font-weight: 500;
@@ -15,12 +20,19 @@
 .mentors-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 16px;
   justify-content: center;
 }
 .mentors-item {
   width: 185px;
 }
+
+@media only screen and (min-width: 768px) {
+  .mentors-item:nth-child(3) {
+    width: 194px;
+  }
+}
+
 .mentors-picture {
   margin: 0 auto;
 }
@@ -44,6 +56,7 @@
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .mentors {
@@ -73,17 +86,17 @@
 }
 @media only screen and (min-width: 1280px) {
   .mentors {
-    padding: 65px 0;
+    padding: 75px 0;
   }
   .mentors-list {
     width: 1034px;
   }
   .mentors-item {
-    width: calc((100% - 100px * 3) / 4);
+    width: calc((100% - 100px * 4) / 4);
   }
 }
 @media only screen and (min-width: 1440px) {
-  .mentors {
-    padding: 75px 0;
+  .mentors-list {
+    width: 1240px;
   }
 }

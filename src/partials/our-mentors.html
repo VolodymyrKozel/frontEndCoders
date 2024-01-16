@@ -1,63 +1,139 @@
 <!-- mentors section -->
-<!-- проверить картинкe в макете ошибка -->
+<!--  -->
 
 <section class="mentors" id="mentors">
-  <div class="container">
-    <h2 class="title-mentors">
+  <div class="container mentors-container">
+    <h2 data-aos="fade-right" class="title-mentors">
       Our <span class="mentors-accent">Mentors</span>
     </h2>
-    <ul class="mentors-list">
+    <ul
+      data-aos="fade-right"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+      class="mentors-list"
+    >
       <li class="mentors-item">
-        <img
-          class="mentors-picture"
-          srcset="
-            ./img/ourMentors/girl1.jpg    1x,
-            ./img/ourMentors/girl1@2x.jpg 2x
-          "
-          src="./img/ourMentors/girl1.jpg"
-          alt="Emilia Smith"
-          width="180"
-          height="180"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/ourMentors/girl1@1x.webp 1x,
+              ./img/ourMentors/girl1@2x.webp 2x
+            "
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/ourMentors/girl1@1x.png 1x,
+              ./img/ourMentors/girl1@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="mentors-picture"
+            src="./img/ourMentors/girl1@1x.png"
+            alt="Emilia Smith"
+            width="180"
+            height="180"
+            loading="lazy"
+          />
+        </picture>
+
         <h3 class="mentors-caption">Emilia Smith</h3>
         <h4 class="mentors-text">1.5 years of experience</h4>
       </li>
+
       <li class="mentors-item">
-        <img
-          class="mentors-picture"
-          srcset="./img/ourMentors/boy1.jpg 1x, ./img/ourMentors/boy1@2x.jpg 2x"
-          src="./img/ourMentors/boy1.jpg"
-          alt="Alex Lebedev"
-          width="180"
-          height="180"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/ourMentors/boy1@1x.webp 1x,
+              ./img/ourMentors/boy1@2x.webp 2x
+            "
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/ourMentors/boy1@1x.png 1x,
+              ./img/ourMentors/boy1@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="mentors-picture"
+            src="./img/ourMentors/boy1@1x.png"
+            alt="Eliot Kovalev"
+            width="180"
+            height="180"
+            loading="lazy"
+          />
+        </picture>
+
         <h3 class="mentors-caption">Alex Lebedev</h3>
         <h4 class="mentors-text">3.5 years of experience</h4>
       </li>
       <li class="mentors-item">
-        <img
-          class="mentors-picture"
-          srcset="
-            ./img/ourMentors/girl2.jpg    1x,
-            ./img/ourMentors/girl2@2x.jpg 2x
-          "
-          src="./img/ourMentors/girl2.jpg"
-          alt="Mia Dubrovska"
-          width="180"
-          height="180"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/ourMentors/girl2@1x.webp 1x,
+              ./img/ourMentors/girl2@2x.webp 2x
+            "
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/ourMentors/girl2@1x.png 1x,
+              ./img/ourMentors/girl2@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="mentors-picture"
+            src="./img/ourMentors/girl2@1x.png"
+            alt="Mia Dubrovska"
+            width="180"
+            height="180"
+            loading="lazy"
+          />
+        </picture>
         <h3 class="mentors-caption">Mia Dubrovska</h3>
         <h4 class="mentors-text">2.0 years of experience</h4>
       </li>
+
       <li class="mentors-item">
-        <img
-          class="mentors-picture"
-          srcset="./img/ourMentors/boy2.jpg 1x, ./img/ourMentors/boy2@2x.jpg 2x"
-          src="./img/ourMentors/boy2.jpg"
-          alt="Eliot Kovalev"
-          width="180"
-          height="180"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/ourMentors/boy2@1x.webp 1x,
+              ./img/ourMentors/boy2@2x.webp 2x
+            "
+            type="image/webp"
+          />
+
+          <source
+            srcset="
+              ./img/ourMentors/boy2@1x.png 1x,
+              ./img/ourMentors/boy2@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="mentors-picture"
+            src="./img/ourMentors/boy2@1x.png"
+            alt="Eliot Kovalev"
+            width="180"
+            height="180"
+            loading="lazy"
+          />
+        </picture>
+
         <h3 class="mentors-caption">Eliot Kovalev</h3>
         <h4 class="mentors-text">4.0 years of experience</h4>
       </li>

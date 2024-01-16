@@ -1,33 +1,39 @@
 <section class="about" id="about">
   <div class="container about-us">
-    <h2 class="about-title">About<span class="about-title-span">Us</span></h2>
+    <h2 class="about-title" data-aos="fade-right" >About <span class="about-title-span"> Us</span></h2>
     <div class="about-wrapper">
-      <picture>
+      <picture data-aos="zoom-in" >
         <source
           media="(max-width: 767px)"
-          srcset="./img/about/mob-about.png 1x, ./img/about/mob-about@2x.png 2x"
+          srcset="
+            ./img/about/mob-about.webp    1x,
+            ./img/about/mob-about@2x.webp 2x
+          "
         />
         <source
           media="(min-width: 768px) and (max-width: 1279px)"
-          srcset="./img/about/tab-about.png 1x, ./img/about/tab-about@2x.png 2x"
+          srcset="
+            ./img/about/tab-about.webp    1x,
+            ./img/about/tab-about@2x.webp 2x
+          "
         />
         <source
           media="(min-width: 1280px) and (max-width: 1439px)"
           srcset="
-            ./img/about/1280-about.png    1x,
-            ./img/about/1280-about@2x.png 2x
+            ./img/about/1280-about.webp    1x,
+            ./img/about/1280-about@2x.webp 2x
           "
         />
         <source
           media="(min-width: 1440px)"
           srcset="
-            ./img/about/1440-about.png    1x,
-            ./img/about/1440-about@2x.png 2x
+            ./img/about/1440-about.webp    1x,
+            ./img/about/1440-about@2x.webp 2x
           "
         />
         <img
           class="about-foto"
-          src="./img/about/1440-about.png"
+          src="./img/about/1440-about.webp"
           alt="about"
           width="260"
           height="488"
@@ -35,7 +41,7 @@
       </picture>
       <ul class="about-list">
         <li class="about-item">
-          <p class="about-item-text">
+          <p class="about-item-text" data-aos="zoom-in" data-aos-delay="500">
             Our photography school is designed to teach you everything you need
             to know about this magical art. Regardless of your experience or
             skill level, we offer a wide range of courses to suit your needs and
@@ -46,7 +52,7 @@
           </p>
         </li>
         <li class="about-item">
-          <p class="about-item-text">
+          <p class="about-item-text" data-aos="zoom-in" data-aos-delay="1000">
             Our courses cover a wide range of topics, from the basics of
             photography and equipment use to professional image processing and
             creating impressive compositions. You will have the opportunity to
