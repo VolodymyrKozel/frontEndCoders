@@ -1,11 +1,5 @@
-/* марджині паддинги перепроверка */
 .mentors {
   padding: 40px 0;
-}
-
-.mentors-container {
-  padding-left: 77px;
-  padding-right: 77px;
 }
 .title-mentors {
   font-size: 28px;
@@ -27,7 +21,7 @@
   width: 185px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
   .mentors-item:nth-child(3) {
     width: 194px;
   }
@@ -38,7 +32,6 @@
 }
 .mentors-picture {
   border-radius: 200px;
-  /*  border-radius: 50%; */
   overflow: hidden;
   margin-bottom: 16px;
 }
@@ -92,7 +85,7 @@
     width: 1034px;
   }
   .mentors-item {
-    width: calc((100% - 100px * 4) / 4);
+    width: 180px;
   }
 }
 @media only screen and (min-width: 1440px) {
